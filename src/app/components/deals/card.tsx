@@ -2,7 +2,6 @@ import { IoStarSharp } from "react-icons/io5";
 import { BsCart3 } from "react-icons/bs";
 import { Quicksand } from "next/font/google";
 import { Lato } from "next/font/google";
-import Image from "next/image";
 
 const quicksand = Quicksand({
     subsets: ["latin"],

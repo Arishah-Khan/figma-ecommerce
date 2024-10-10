@@ -22,7 +22,7 @@ export default function HeroSec() {
         {/* Text Section */}
         <div className="text-center md:text-left mb-8 md:mb-0 order-2 md:order-1 ">
           <h1 className={`${quicksand.className} text-[#253D4E] text-3xl md:text-4xl `}>
-            Don't miss amazing grocery deals
+            "Don't" miss amazing grocery deals
           </h1>
           <p className={`${lato.className} text-[#7E7E7E] mt-2`}>
             Sign up for the daily newsletter

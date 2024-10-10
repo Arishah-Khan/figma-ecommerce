@@ -2,7 +2,6 @@ import CategoriesCard from "./cateogories-card";
 import { Quicksand } from "next/font/google";
 import { Lato } from "next/font/google";
 import ThreeCards from "./threeCard";
-import Image from "next/image";
 
 
 // Importing the Quicksand and Lato fonts with proper weights and settings
