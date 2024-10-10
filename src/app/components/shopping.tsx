@@ -25,7 +25,7 @@ export default function ShoppingSec() {
           Stay home & get your daily needs from our shop
           </h1>
           <p className={`${lato.className} text-[#7E7E7E] mt-2`}>
-          Start "You\'r" Daily Shopping with <span className="text-[#3BB77E]"> Nest Mart </span>
+          Start {`You'r`} Daily Shopping with <span className="text-[#3BB77E]"> Nest Mart </span>
           </p>
 
           {/* Email Input Section */}
