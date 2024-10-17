@@ -27,7 +27,7 @@ export default function ThreeCard({
           {title}
         </h2>
         <div>
-          <button className="text-white bg-[#3BB77E] hover:bg-[#2a955b] rounded px-4 py-2 transition-colors duration-300 ease-in-out">
+          <button className="text-white bg-[#3BB77E] hover:bg-[#2a955b] rounded px-2 md:px-4 py-1 sm:py-2 transition-colors duration-300 ease-in-out">
             Shop Now
           </button>
         </div>

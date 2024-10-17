@@ -11,6 +11,7 @@ import { VscAccount } from "react-icons/vsc";
 import { Quicksand } from "next/font/google";
 import { Lato } from "next/font/google";
 import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
+import Link from "next/link";
 
 // Font imports
 const quicksand = Quicksand({
@@ -135,10 +136,10 @@ export default function Header() {
         {/* Navigation Links */}
         <div>
           <ul className="flex space-x-8 text-[#253D4E] ">
-            <li className="cursor-pointer hover:text-[#3BB77E]">Home</li>
-            <li className="cursor-pointer hover:text-[#3BB77E]">About</li>
-            <li className="cursor-pointer hover:text-[#3BB77E]">Blog</li>
-            <li className="cursor-pointer hover:text-[#3BB77E]">Contact</li>
+            <li className="cursor-pointer hover:text-[#3BB77E]"><Link href="./">Home</Link></li>
+            <li className="cursor-pointer hover:text-[#3BB77E]"><Link href="./about">About</Link></li>
+            <li className="cursor-pointer hover:text-[#3BB77E]"><Link href="./blog">Blog</Link></li>
+            <li className="cursor-pointer hover:text-[#3BB77E]"><Link href="./contact">Contact</Link></li>
           </ul>
         </div>
 
@@ -165,10 +166,10 @@ export default function Header() {
       {menuOpen && (
         <div className="flex flex-col md:hidden bg-white p-4 shadow-md space-y-4 text-center">
           <ul className="flex flex-col space-y-4 text-[#253D4E]">
-            <li className="cursor-pointer hover:text-[#3BB77E]">Home</li>
-            <li className="cursor-pointer hover:text-[#3BB77E]">About</li>
-            <li className="cursor-pointer hover:text-[#3BB77E]">Blog</li>
-            <li className="cursor-pointer hover:text-[#3BB77E]">Contact</li>
+            <li className="cursor-pointer hover:text-[#3BB77E]"><Link href="./">Home</Link></li>
+            <li className="cursor-pointer hover:text-[#3BB77E]"><Link href="./about">About</Link></li>
+            <li className="cursor-pointer hover:text-[#3BB77E]"><Link href="./blog">Blog</Link></li>
+            <li className="cursor-pointer hover:text-[#3BB77E]"><Link href="./contact">Contact</Link></li>
           </ul>
 
           {/* Location Button in Mobile Menu */}

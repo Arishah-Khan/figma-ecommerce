@@ -37,9 +37,9 @@ export default function PopularProductCard({
     name,
 }: productsCard) {
     return (
-        <div className="px-2 sm:w-full w-[300px]">
+        <div className="px-1 sm:w-full w-[270px]">
             {/* Set a consistent card height and flex for vertical alignment */}
-            <div className="bg-white border border-gray-200 shadow-lg rounded-lg p-4 h-[350px]  flex flex-col justify-between transition-transform transform hover:scale-105">
+            <div className="bg-white border border-gray-200 shadow-lg rounded-lg p-4 h-[320px] sm:h-[350px] flex flex-col justify-between transition-transform transform hover:scale-105">
                 <div className="flex justify-center items-center">
                     <Image
                         src={image || "/images/default-product.png"} // Dynamically setting the image from the `image` prop

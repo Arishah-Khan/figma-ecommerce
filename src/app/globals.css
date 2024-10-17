@@ -9,3 +9,10 @@
   background-position: center; /* Center position */
   position: relative; /* Relative position for child elements */
 }
+
+/* globals.css */
+
+.bg-custom {
+  @apply bg-cover bg-center; /* Use Tailwind classes */
+}
+
